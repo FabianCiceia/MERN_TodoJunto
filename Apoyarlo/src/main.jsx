@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import PersonCard from './components/PersonCard.jsx'
-
+import "./index.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -10,6 +10,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       lastName = "Jane"
       age = "45"
       hairColor ="Black"
+      valorInicial = "12"
     />
         <PersonCard
       firstName = "Smith"
@@ -28,6 +29,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       lastName = "Maria"
       age = "62"
       hairColor ="Brown"
-    />
+    /> 
   </React.StrictMode>,
 )
